@@ -15,4 +15,4 @@ jobs:
     name: Hello
     steps:
       - name: Hello
-        uses: kota999/github-actions-js-action-sample@master
+        uses: kota999/github-actions-js-action-sample@v1.0.0
