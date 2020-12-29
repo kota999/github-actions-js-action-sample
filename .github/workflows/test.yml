@@ -10,3 +10,9 @@ jobs:
         uses: actions/checkout@v2.0.0
       - name: Verify hello action works
         uses: ./
+  call-hello:
+    runs-on: ubuntu-latest
+    name: Hello
+    steps:
+      - name: Hello
+        uses: kota999/hello-action@master
